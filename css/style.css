@@ -79,8 +79,8 @@ header {
 }
 /*マウスオン時の設定*/
 #menubar li a:hover {
-	color: #224acf;	/*文字色*/
-	border-bottom: 4px solid #224acf;	/*下線の幅、線種、色*/
+	color: #0e0c0c;	/*文字色*/
+	border-bottom: 4px solid #0e0c0c;	/*下線の幅、線種、色*/
 }
 
 /*コンテンツ（見出しバーや文字などが入っているブロック）
@@ -129,7 +129,7 @@ header {
 }
 /*h4見出しの設定*/
 .list h4 {
-	color: #224acf;	/*文字色*/
+	color: #0e0c0c;	/*文字色*/
 }
 /*画像の設定*/
 .list img {
