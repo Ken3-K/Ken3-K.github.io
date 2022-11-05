@@ -1,0 +1,3 @@
+[submodule "kenzaburo/themes/ananke"]
+	path = kenzaburo/themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git
