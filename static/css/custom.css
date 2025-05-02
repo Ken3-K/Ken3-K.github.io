@@ -50,7 +50,7 @@ h1 {
 }
 
 p,
-ul {
+li {
     /* background: black;
     background-image: none; */
     backdrop-filter: blur(100px);
