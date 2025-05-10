@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
 
+
 .site-header {
     white-space: nowrap !important;
     height: 54px;
         align-items: center;
         display: flex;
     }
-    
+
     .site-logo {
         height: 54px !important;
         margin-right: 10px !important;
@@ -47,6 +48,20 @@ h1 {
     padding-bottom: 5px;
     /* 白色で縁取り */
     /* -webkit-text-stroke: 0.01px white; */
+}
+/* スマホ用のレスポンシブ対応 */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+        /* タブレットやスマホ用にフォントサイズを小さく */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+        /* 小さいスマホ用にさらに小さく */
+    }
 }
 
 p,
