@@ -58,8 +58,15 @@ li {
 /* カード一覧ページ用 */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
+        /* 列数は4列固定 */
     grid-gap: 10px;
+    width: 100%;
+        /* デフォルトで全幅 */
+        max-width: 800px;
+        /* 最大幅を設定 */
+        margin: 0 auto;
+        /* 中央揃え */
 }
 
 .gallery img {
